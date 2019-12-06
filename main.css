@@ -1,0 +1,55 @@
+h1 {
+    animation-name: slidedown;
+    animation-duration: 1s;
+}
+
+@keyframes slidedown {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+img {
+    animation-name: rotate;
+    animation-duration: 2s;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+li {
+    animation-name: slidein;
+    animation-duration: 1s;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+body {
+    animation-name: shade;
+    animation-duration: 2s;
+}
+
+@keyframes shade {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: turquoise;
+    }
+    100% {
+        background-color: lawngreen;
+    }
+}
